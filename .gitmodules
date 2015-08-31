@@ -1,0 +1,3 @@
+[submodule "vendor/github.com/spiegel-im-spiegel/gutil"]
+	path = vendor/github.com/spiegel-im-spiegel/gutil
+	url = https://github.com/spiegel-im-spiegel/gutil.git
