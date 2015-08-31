@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/spiegel-im-spiegel/gutil"
-	"gcat/internal/facade"
+	"github.com/spiegel-im-spiegel/gcat/internal/facade"
 )
 
 func main() {

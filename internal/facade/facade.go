@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/spiegel-im-spiegel/gutil"
-	"gcat/internal/gcat"
+	"github.com/spiegel-im-spiegel/gcat/internal/gcat"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.
