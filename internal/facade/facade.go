@@ -17,7 +17,7 @@ const (
 // Context is the context of facade
 type Context struct {
 	//Context for command-line.
-	Cli *gutil.CliContext
+	Cli *gutil.CliUi
 
 	//Information of command
 	CommandName, Version string

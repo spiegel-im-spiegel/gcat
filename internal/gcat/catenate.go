@@ -7,7 +7,7 @@ import (
 // Context of catenate
 type Context struct {
 	//Context for command-line.
-	Cli *gutil.CliContext
+	Cli *gutil.CliUi
 }
 
 //Catenation (raw data)
