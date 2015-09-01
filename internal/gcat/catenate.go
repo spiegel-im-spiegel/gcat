@@ -1,6 +1,8 @@
 package gcat
 
 import (
+	"io"
+
 	"github.com/spiegel-im-spiegel/gutil"
 )
 
@@ -12,10 +14,6 @@ type Context struct {
 
 //Catenation (raw data)
 func (cxt *Context) Catenate() error {
-	reader, err := cxt.Cli.NewReader()
-	if err != nil {
-		return err
-	}
-	_, err = reader.WriteTo(cxt.Cli.Writer)
+	_, err := io.Copy(cxt.Cli.Writer, cxt.Cli.Reader)
 	return err
 }

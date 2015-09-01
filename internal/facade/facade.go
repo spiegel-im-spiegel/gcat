@@ -64,6 +64,7 @@ func (cxt *Context) Run(args []string) int {
 
 	//Create Context
 	gcatCxt := gcat.Context {Cli: cxt.Cli}
+	gcatCxt.Cli.ModeInteract()
 
 	//Input File
 	if len(infiles) == 0 {
